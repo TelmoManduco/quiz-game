@@ -14,7 +14,6 @@ const QuizView = ({ country, questions, onAbort, onFinish }) => {
 
   // --- TIMER LOGIC ---
   useEffect(() => {
-    if (hasAnswered) return;
 
     if (timeLeft === 0) {
       handleAutoAdvance();
@@ -26,7 +25,7 @@ const QuizView = ({ country, questions, onAbort, onFinish }) => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft, hasAnswered]);
+  }, [timeLeft]);
 
   // Resets timer to the constant value whenever the question changes
   useEffect(() => {

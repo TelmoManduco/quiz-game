@@ -1,66 +1,87 @@
-// src/data/countries.js
 export const countries = [
+  // EUROPE
   { id: 1, name: "Portugal", code: "pt" },
-  { id: 2, name: "Brazil", code: "br" },
-  { id: 3, name: "Japan", code: "jp" },
-  { id: 4, name: "Canada", code: "ca" },
+  { id: 2, name: "France", code: "fr" },
+  { id: 3, name: "Italy", code: "it" },
+  { id: 4, name: "Spain", code: "es" },
   { id: 5, name: "United Kingdom", code: "gb" },
-  { id: 6, name: "France", code: "fr" },
+  { id: 6, name: "Germany", code: "de" },
+
+  // AMERICAS
+  { id: 7, name: "Brazil", code: "br" },
+  { id: 8, name: "USA", code: "us" },
+  { id: 9, name: "Argentina", code: "ar" },
+  { id: 10, name: "Mexico", code: "mx" },
+  { id: 11, name: "Canada", code: "ca" },
+
+  // AFRICA (PALOP & Others)
+  { id: 12, name: "Angola", code: "ao" },
+  { id: 13, name: "Cape Verde", code: "cv" },
+  { id: 14, name: "Mozambique", code: "mz" },
+  { id: 15, name: "Guinea-Bissau", code: "gw" },
+  { id: 16, name: "São Tomé and Príncipe", code: "st" },
+  { id: 17, name: "South Africa", code: "za" },
+
+  // ASIA & OCEANIA
+  { id: 18, name: "Japan", code: "jp" },
+  { id: 19, name: "China", code: "cn" },
+  { id: 20, name: "Thailand", code: "th" },
+  { id: 21, name: "Australia", code: "au" },
 ];
 
 export const quizData = {
   Portugal: [
     {
       q: "What is the capital of Portugal?",
-      o: ["Porto", "Lisbon", "Faro", "Braga"],
+      o: ["Porto", "Lisbon", "Coimbra", "Braga"],
       a: "Lisbon",
     },
     {
-      q: "Which music genre is a symbol of Portuguese culture?",
-      o: ["Samba", "Fado", "Flamenco", "Tango"],
-      a: "Fado",
+      q: "Who wrote the epic poem 'Os Lusíadas'?",
+      o: ["Pessoa", "Saramago", "Camões", "Queirós"],
+      a: "Camões",
     },
     {
-      q: "What is the official currency of Portugal?",
-      o: ["Escudo", "Real", "Euro", "Peseta"],
-      a: "Euro",
+      q: "What is a typical bread-based dish from the Alentejo region?",
+      o: ["Francesinha", "Açorda", "Bacalhau à Brás", "Cozido"],
+      a: "Açorda",
     },
     {
-      q: "Which Portuguese explorer first reached India by sea?",
-      o: ["Magellan", "Vasco da Gama", "Cabral", "Diaz"],
-      a: "Vasco da Gama",
+      q: "In which year did the Carnation Revolution take place?",
+      o: ["1910", "1974", "1945", "1986"],
+      a: "1974",
     },
     {
-      q: "What is the famous custard tart from Portugal called?",
-      o: ["Baklava", "Pastel de Nata", "Tiramisu", "Cannoli"],
-      a: "Pastel de Nata",
+      q: "Which of these islands belongs to the Azores?",
+      o: ["Madeira", "Porto Santo", "Terceira", "Deserta"],
+      a: "Terceira",
     },
   ],
-  Japan: [
+  France: [
     {
-      q: "What is the highest mountain in Japan?",
-      o: ["Mount Kita", "Mount Fuji", "Mount Hotaka", "Mount Yari"],
-      a: "Mount Fuji",
+      q: "What is the most visited museum in Paris?",
+      o: ["Orsay", "Louvre", "Pompidou", "Rodin"],
+      a: "Louvre",
     },
     {
-      q: "Which city was the ancient capital of Japan?",
-      o: ["Tokyo", "Osaka", "Kyoto", "Hiroshima"],
-      a: "Kyoto",
+      q: "What is the nickname of the French national football team?",
+      o: ["La Roja", "Les Bleus", "Azzurra", "Orange"],
+      a: "Les Bleus",
     },
     {
-      q: "What is the traditional Japanese dress called?",
-      o: ["Hanbok", "Sari", "Kimono", "Cheongsam"],
-      a: "Kimono",
+      q: "Who was the French heroine in the Hundred Years' War?",
+      o: ["Marie Antoinette", "Joan of Arc", "Coco Chanel", "Edith Piaf"],
+      a: "Joan of Arc",
     },
     {
-      q: "Japan is made up of how many main islands?",
-      o: ["3", "4", "5", "6"],
-      a: "4",
+      q: "Which river flows through Paris?",
+      o: ["Rhône", "Loire", "Seine", "Garonne"],
+      a: "Seine",
     },
     {
-      q: "Which martial art originated in Japan?",
-      o: ["Kung Fu", "Taekwondo", "Karate", "Muay Thai"],
-      a: "Karate",
+      q: "Which of these cheeses is of French origin?",
+      o: ["Mozzarella", "Cheddar", "Brie", "Gouda"],
+      a: "Brie",
     },
   ],
   Brazil: [
@@ -70,56 +91,331 @@ export const quizData = {
       a: "Brasília",
     },
     {
-      q: "Which language is primarily spoken in Brazil?",
-      o: ["Spanish", "English", "Portuguese", "French"],
+      q: "What is the largest Brazilian state by area?",
+      o: ["São Paulo", "Amazonas", "Minas Gerais", "Bahia"],
+      a: "Amazonas",
+    },
+    {
+      q: "Who proclaimed the Independence of Brazil?",
+      o: ["Cabral", "Dom Pedro I", "Vargas", "Tiradentes"],
+      a: "Dom Pedro I",
+    },
+    {
+      q: "Which musical rhythm was born in the hills of Rio de Janeiro?",
+      o: ["Sertanejo", "Samba", "Axé", "Forró"],
+      a: "Samba",
+    },
+    {
+      q: "What is the official currency of Brazil?",
+      o: ["Peso", "Dollar", "Real", "Cruzeiro"],
+      a: "Real",
+    },
+  ],
+  Angola: [
+    {
+      q: "What is the capital of Angola?",
+      o: ["Benguela", "Huambo", "Luanda", "Lubango"],
+      a: "Luanda",
+    },
+    {
+      q: "Which desert extends through southern Angola?",
+      o: ["Sahara", "Namib", "Kalahari", "Gobi"],
+      a: "Namib",
+    },
+    {
+      q: "What is the official language of Angola?",
+      o: ["Umbundu", "Kimbundu", "Portuguese", "French"],
       a: "Portuguese",
     },
     {
-      q: "The Amazon Rainforest is mostly located in which country?",
-      o: ["Peru", "Colombia", "Brazil", "Venezuela"],
-      a: "Brazil",
+      q: "The 'Kalandula Falls' are famous...?",
+      o: ["Mountains", "Waterfalls", "Ancient Cities", "Caves"],
+      a: "Waterfalls",
     },
     {
-      q: "What is the famous carnival city of Brazil?",
-      o: ["Manaus", "Rio de Janeiro", "Curitiba", "Fortaleza"],
-      a: "Rio de Janeiro",
-    },
-    {
-      q: "How many times has Brazil won the FIFA World Cup?",
-      o: ["3", "4", "5", "6"],
-      a: "5",
+      q: "Which tree is a national symbol of Angola?",
+      o: ["Cork Oak", "Baobab", "Palm Tree", "Pine"],
+      a: "Baobab",
     },
   ],
-  "United Kingdom": [
+  "Guinea-Bissau": [
     {
-      q: "What is the official residence of the British Monarch?",
+      q: "What is the capital of Guinea-Bissau?",
+      o: ["Bafatá", "Gabú", "Bissau", "Cacheu"],
+      a: "Bissau",
+    },
+    {
+      q: "What is the official language of Guinea-Bissau?",
+      o: ["French", "Portuguese", "English", "Spanish"],
+      a: "Portuguese",
+    },
+    {
+      q: "Which of these is a famous archipelago in Guinea-Bissau?",
+      o: ["Azores", "Bijagós", "Canary Islands", "Cape Verde"],
+      a: "Bijagós",
+    },
+    {
+      q: "Who was the main leader of the independence movement?",
       o: [
-        "Windsor Castle",
-        "Buckingham Palace",
-        "Tower of London",
-        "Kensington Palace",
+        "Amílcar Cabral",
+        "Agostinho Neto",
+        "Samora Machel",
+        "Eduardo Mondlane",
       ],
-      a: "Buckingham Palace",
+      a: "Amílcar Cabral",
     },
     {
-      q: "Which river flows through London?",
-      o: ["River Avon", "River Trent", "River Thames", "River Severn"],
-      a: "River Thames",
+      q: "Guinea-Bissau is a top global exporter of which nut?",
+      o: ["Walnut", "Cashew Nut", "Peanut", "Almond"],
+      a: "Cashew Nut",
+    },
+  ],
+  "Cape Verde": [
+    {
+      q: "What is the capital of Cape Verde?",
+      o: ["Mindelo", "Praia", "Espargos", "Assomada"],
+      a: "Praia",
     },
     {
-      q: "What is the national dish of the UK?",
-      o: ["Roast Beef", "Chicken Tikka Masala", "Fish and Chips", "Haggis"],
-      a: "Chicken Tikka Masala",
+      q: "Who was known as the 'Barefoot Diva'?",
+      o: ["Mayra Andrade", "Cesária Évora", "Lura", "Tito Paris"],
+      a: "Cesária Évora",
     },
     {
-      q: "Which of these is NOT part of the United Kingdom?",
-      o: ["Wales", "Scotland", "Ireland", "Northern Ireland"],
-      a: "Ireland",
+      q: "How many inhabited islands make up the archipelago?",
+      o: ["5", "7", "9", "12"],
+      a: "9",
     },
     {
-      q: "In which city did The Beatles form?",
-      o: ["London", "Manchester", "Liverpool", "Birmingham"],
-      a: "Liverpool",
+      q: "Which island is home to an active volcano?",
+      o: ["Sal", "Boa Vista", "Fogo", "Santo Antão"],
+      a: "Fogo",
+    },
+    {
+      q: "What is the national dish of Cape Verde?",
+      o: ["Muamba", "Cachupa", "Feijoada", "Calulu"],
+      a: "Cachupa",
+    },
+  ],
+  Mozambique: [
+    {
+      q: "What is the capital of Mozambique?",
+      o: ["Beira", "Nampula", "Maputo", "Pemba"],
+      a: "Maputo",
+    },
+    {
+      q: "Who was the famous Mozambican-born footballer who starred for Benfica?",
+      o: ["Mário Coluna", "Eusébio", "Hilário", "Chiquinho Conde"],
+      a: "Eusébio",
+    },
+    {
+      q: "What is the name of the famous archipelago in the north of the country?",
+      o: ["Bazaruto", "Quirimbas", "Anahambane", "Seychelles"],
+      a: "Quirimbas",
+    },
+    {
+      q: "What is the country's main historical island?",
+      o: [
+        "Island of Mozambique",
+        "Ibo Island",
+        "Inhaca Island",
+        "Xefina Island",
+      ],
+      a: "Island of Mozambique",
+    },
+    {
+      q: "Mozambique borders which ocean?",
+      o: ["Atlantic", "Indian", "Pacific", "Arctic"],
+      a: "Indian",
+    },
+  ],
+  USA: [
+    {
+      q: "What is the capital of the United States?",
+      o: ["New York", "Los Angeles", "Washington D.C.", "Chicago"],
+      a: "Washington D.C.",
+    },
+    {
+      q: "How many states make up the USA?",
+      o: ["48", "50", "52", "55"],
+      a: "50",
+    },
+    {
+      q: "Who was the first President of the USA?",
+      o: ["Lincoln", "Kennedy", "Washington", "Jefferson"],
+      a: "Washington",
+    },
+    {
+      q: "In which city is the Statue of Liberty located?",
+      o: ["Miami", "San Francisco", "New York", "Boston"],
+      a: "New York",
+    },
+    {
+      q: "What is the most popular sport in the USA?",
+      o: ["Soccer", "Baseball", "American Football", "Basketball"],
+      a: "American Football",
+    },
+  ],
+  Italy: [
+    {
+      q: "What is the capital of Italy?",
+      o: ["Milan", "Venice", "Rome", "Florence"],
+      a: "Rome",
+    },
+    {
+      q: "Which city is famous for its canals?",
+      o: ["Naples", "Genoa", "Venice", "Turin"],
+      a: "Venice",
+    },
+    {
+      q: "Who painted the 'Mona Lisa'?",
+      o: ["Michelangelo", "Da Vinci", "Raphael", "Botticelli"],
+      a: "Da Vinci",
+    },
+    {
+      q: "Which island is home to Mount Etna?",
+      o: ["Sardinia", "Sicily", "Capri", "Elba"],
+      a: "Sicily",
+    },
+    {
+      q: "Which pasta is shaped like long strings?",
+      o: ["Penne", "Fusilli", "Spaghetti", "Ravioli"],
+      a: "Spaghetti",
+    },
+  ],
+  Germany: [
+    {
+      q: "What is the capital of Germany?",
+      o: ["Munich", "Hamburg", "Berlin", "Frankfurt"],
+      a: "Berlin",
+    },
+    {
+      q: "Which beer festival takes place in Munich?",
+      o: ["Summerfest", "Oktoberfest", "Winterfest", "Beerfest"],
+      a: "Oktoberfest",
+    },
+    {
+      q: "Who composed the 9th Symphony?",
+      o: ["Bach", "Mozart", "Beethoven", "Wagner"],
+      a: "Beethoven",
+    },
+    {
+      q: "What was the name of the barrier that divided Berlin?",
+      o: ["Iron Wall", "Berlin Wall", "Siegfried Line", "Ice Wall"],
+      a: "Berlin Wall",
+    },
+    {
+      q: "Which car brand is German?",
+      o: ["Fiat", "Renault", "BMW", "Toyota"],
+      a: "BMW",
+    },
+  ],
+  Japan: [
+    {
+      q: "What is the capital of Japan?",
+      o: ["Kyoto", "Osaka", "Tokyo", "Hiroshima"],
+      a: "Tokyo",
+    },
+    {
+      q: "What is the traditional dress of Japan?",
+      o: ["Hanbok", "Kimono", "Sari", "Cheongsam"],
+      a: "Kimono",
+    },
+    {
+      q: "Which mountain is the highest in Japan?",
+      o: ["Mount Kita", "Mount Fuji", "Mount Aso", "Mount Yari"],
+      a: "Mount Fuji",
+    },
+    {
+      q: "What is the currency used in Japan?",
+      o: ["Won", "Yuan", "Yen", "Baht"],
+      a: "Yen",
+    },
+    {
+      q: "Japan is known as the Land of the Rising...?",
+      o: ["Moon", "Star", "Sun", "Cloud"],
+      a: "Sun",
+    },
+  ],
+  China: [
+    {
+      q: "What is the capital of China?",
+      o: ["Shanghai", "Guangzhou", "Beijing", "Shenzhen"],
+      a: "Beijing",
+    },
+    {
+      q: "Which man-made structure is visible from space?",
+      o: ["Great Wall", "Forbidden City", "Terracotta Army", "Potala Palace"],
+      a: "Great Wall",
+    },
+    {
+      q: "What is the official language of China?",
+      o: ["Cantonese", "Mandarin", "Hokkien", "Wu"],
+      a: "Mandarin",
+    },
+    {
+      q: "Which animal is a national treasure of China?",
+      o: ["Tiger", "Red Panda", "Giant Panda", "Dragon"],
+      a: "Giant Panda",
+    },
+    {
+      q: "Which river is the longest in China?",
+      o: ["Yellow River", "Pearl River", "Yangtze", "Mekong"],
+      a: "Yangtze",
+    },
+  ],
+  Thailand: [
+    {
+      q: "What is the capital of Thailand?",
+      o: ["Phuket", "Bangkok", "Chiang Mai", "Pattaya"],
+      a: "Bangkok",
+    },
+    {
+      q: "Thailand was formerly known as...?",
+      o: ["Siam", "Ceylon", "Burma", "Indochina"],
+      a: "Siam",
+    },
+    {
+      q: "What is the most popular martial art in Thailand?",
+      o: ["Karate", "Muay Thai", "Judo", "Taekwondo"],
+      a: "Muay Thai",
+    },
+    {
+      q: "Which of these is a famous Thai soup?",
+      o: ["Pho", "Tom Yum", "Ramen", "Laksa"],
+      a: "Tom Yum",
+    },
+    {
+      q: "What is the predominant religion in Thailand?",
+      o: ["Islam", "Hinduism", "Buddhism", "Christianity"],
+      a: "Buddhism",
+    },
+  ],
+  Australia: [
+    {
+      q: "What is the capital of Australia?",
+      o: ["Sydney", "Melbourne", "Canberra", "Perth"],
+      a: "Canberra",
+    },
+    {
+      q: "Which large coral reef system is in Australia?",
+      o: ["Great Barrier Reef", "Belize Reef", "Red Sea Reef", "Apo Reef"],
+      a: "Great Barrier Reef",
+    },
+    {
+      q: "What is the nickname for Australians?",
+      o: ["Kiwis", "Yanks", "Aussies", "Canucks"],
+      a: "Aussies",
+    },
+    {
+      q: "Which of these animals is native to Australia?",
+      o: ["Tiger", "Kangaroo", "Elephant", "Panda"],
+      a: "Kangaroo",
+    },
+    {
+      q: "The Australian Outback is mostly...?",
+      o: ["Forest", "Desert", "Mountains", "Snow"],
+      a: "Desert",
     },
   ],
 };
