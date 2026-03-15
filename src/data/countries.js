@@ -418,4 +418,194 @@ export const quizData = {
       a: "Desert",
     },
   ],
+  Spain: [
+    {
+      q: "What is the capital of Spain?",
+      o: ["Barcelona", "Valencia", "Madrid", "Seville"],
+      a: "Madrid",
+    },
+    {
+      q: "Which famous architect designed the Sagrada Família?",
+      o: ["Gaudí", "Picasso", "Dalí", "Miró"],
+      a: "Gaudí",
+    },
+    {
+      q: "What is the name of the traditional Spanish rice dish?",
+      o: ["Risotto", "Paella", "Couscous", "Ratatouille"],
+      a: "Paella",
+    },
+    {
+      q: "Which dance style originated in the Andalusia region?",
+      o: ["Salsa", "Tango", "Flamenco", "Bachata"],
+      a: "Flamenco",
+    },
+    {
+      q: "What is the official currency of Spain?",
+      o: ["Peseta", "Euro", "Pound", "Franc"],
+      a: "Euro",
+    },
+  ],
+  "United Kingdom": [
+    {
+      q: "What is the capital of the United Kingdom?",
+      o: ["Manchester", "Edinburgh", "London", "Birmingham"],
+      a: "London",
+    },
+    {
+      q: "Who is the legendary playwright of 'Romeo and Juliet'?",
+      o: [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "George Orwell",
+      ],
+      a: "William Shakespeare",
+    },
+    {
+      q: "Which prehistoric monument is located in Wiltshire?",
+      o: ["Stonehenge", "Colosseum", "Parthenon", "Petra"],
+      a: "Stonehenge",
+    },
+    {
+      q: "What is the name of the famous clock tower at the Palace of Westminster?",
+      o: ["Big Ben", "The Shard", "London Eye", "Tower Bridge"],
+      a: "Big Ben",
+    },
+    {
+      q: "What is the official currency of the UK?",
+      o: ["Euro", "Dollar", "Pound Sterling", "Crown"],
+      a: "Pound Sterling",
+    },
+  ],
+  Argentina: [
+    {
+      q: "What is the capital of Argentina?",
+      o: ["Rosario", "Córdoba", "Buenos Aires", "Mendoza"],
+      a: "Buenos Aires",
+    },
+    {
+      q: "Which dance and music genre originated in Argentina?",
+      o: ["Samba", "Tango", "Reggaeton", "Cumbia"],
+      a: "Tango",
+    },
+    {
+      q: "Who is the famous Argentine football player known as 'D10S'?",
+      o: ["Messi", "Maradona", "Pele", "Ronaldo"],
+      a: "Maradona",
+    },
+    {
+      q: "Which mountain range runs along the west of Argentina?",
+      o: ["Alps", "Rockies", "Andes", "Himalayas"],
+      a: "Andes",
+    },
+    {
+      q: "What is the popular herbal tea drink in Argentina?",
+      o: ["Matcha", "Chai", "Mate", "Earl Grey"],
+      a: "Mate",
+    },
+  ],
+  Mexico: [
+    {
+      q: "What is the capital of Mexico?",
+      o: ["Guadalajara", "Cancún", "Mexico City", "Monterrey"],
+      a: "Mexico City",
+    },
+    {
+      q: "Which ancient civilisation built the pyramid of Chichén Itzá?",
+      o: ["Inca", "Aztec", "Maya", "Olmec"],
+      a: "Maya",
+    },
+    {
+      q: "What is the famous holiday celebrating ancestors in Mexico?",
+      o: ["Day of the Dead", "Cinco de Mayo", "Carnival", "Easter"],
+      a: "Day of the Dead",
+    },
+    {
+      q: "What is the main ingredient in guacamole?",
+      o: ["Tomato", "Onion", "Avocado", "Pepper"],
+      a: "Avocado",
+    },
+    {
+      q: "Which spirit is traditionally made from the blue agave plant?",
+      o: ["Rum", "Vodka", "Tequila", "Gin"],
+      a: "Tequila",
+    },
+  ],
+  Canada: [
+    {
+      q: "What is the capital of Canada?",
+      o: ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      a: "Ottawa",
+    },
+    {
+      q: "What is the national symbol on the Canadian flag?",
+      o: ["Eagle", "Maple Leaf", "Beaver", "Moose"],
+      a: "Maple Leaf",
+    },
+    { q: "How many oceans border Canada?", o: ["1", "2", "3", "4"], a: "3" },
+    {
+      q: "Which sport is considered Canada's national winter sport?",
+      o: ["Basketball", "Ice Hockey", "Skiing", "Curling"],
+      a: "Ice Hockey",
+    },
+    {
+      q: "What is the official currency of Canada?",
+      o: ["US Dollar", "Pound", "Canadian Dollar", "Euro"],
+      a: "Canadian Dollar",
+    },
+  ],
+  "São Tomé and Príncipe": [
+    {
+      q: "What is the capital of São Tomé and Príncipe?",
+      o: ["Santo António", "São Tomé", "Neves", "Trindade"],
+      a: "São Tomé",
+    },
+    {
+      q: "The country was once the world's largest producer of which crop?",
+      o: ["Coffee", "Cocoa", "Sugar", "Cotton"],
+      a: "Cocoa",
+    },
+    {
+      q: "Which ocean surrounds these islands?",
+      o: ["Indian", "Pacific", "Atlantic", "Southern"],
+      a: "Atlantic",
+    },
+    {
+      q: "What is the official language?",
+      o: ["French", "Portuguese", "Spanish", "English"],
+      a: "Portuguese",
+    },
+    {
+      q: "What is the famous rock formation (plug) on São Tomé island?",
+      o: ["Sugarloaf", "Pico Cão Grande", "Table Mountain", "Uluru"],
+      a: "Pico Cão Grande",
+    },
+  ],
+  "South Africa": [
+    {
+      q: "What is the largest city in South Africa?",
+      o: ["Cape Town", "Durban", "Johannesburg", "Pretoria"],
+      a: "Johannesburg",
+    },
+    {
+      q: "How many official languages does South Africa have?",
+      o: ["2", "5", "11", "15"],
+      a: "11",
+    },
+    {
+      q: "Who was the first black president of South Africa?",
+      o: ["Desmond Tutu", "Nelson Mandela", "Thabo Mbeki", "Jacob Zuma"],
+      a: "Nelson Mandela",
+    },
+    {
+      q: "What is the nickname for the national rugby team?",
+      o: ["Bafana Bafana", "Springboks", "Wallabies", "All Blacks"],
+      a: "Springboks",
+    },
+    {
+      q: "What is the currency of South Africa?",
+      o: ["Rand", "Pound", "Dollar", "Shilling"],
+      a: "Rand",
+    },
+  ],
 };
